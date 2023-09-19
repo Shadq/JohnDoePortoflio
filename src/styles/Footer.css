@@ -1,0 +1,36 @@
+footer {
+  margin-top: 150px;
+  height: 330px;
+  display: flex;
+  flex-direction: row;
+  border-top: 3px solid #282b2f;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer__text__container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__text__container div {
+  margin-top: 20px;
+  font-size: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer__text__container span {
+  color: #808080;
+  font-weight: 500;
+}
+
+.footer__email__container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

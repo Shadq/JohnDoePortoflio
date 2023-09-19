@@ -1,0 +1,29 @@
+.hero__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero__title h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero__title span {
+  font-size: 22px;
+  color: #808080;
+}
+
+.image {
+  width: 450px;
+  height: 528px;
+  border-radius: 8px;
+}

@@ -1,0 +1,28 @@
+.about__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.about__content h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.about__content span {
+  font-size: 19px;
+  color: #808080;
+}
+
+.img {
+  height: 350px;
+  border-radius: 8px;
+}
+
+.about__content__links {
+  margin-top: 20px;
+  font-size: 35px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}

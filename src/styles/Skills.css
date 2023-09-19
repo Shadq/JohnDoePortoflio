@@ -1,0 +1,77 @@
+.skills__container {
+  margin-top: 150px;
+  margin-left: 185px;
+}
+
+.skills__content h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.skills__content span {
+  font-size: 19px;
+  color: #808080;
+}
+
+.skills__buttons {
+  margin-top: 70px;
+  display: flex;
+  gap: 4rem;
+}
+
+.skills__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition: transform 0.5s;
+  font-family: "Inter", "sans-serif";
+}
+
+.skills__button span {
+  font-size: 38px;
+}
+
+.skills__button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.skills__knowledge__container {
+  margin-top: 50px;
+}
+
+.skills__knowledge {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 0.2fr);
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 1rem;
+  width: 300px;
+  height: 73px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 3px solid #282b2f;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.02);
+}
+
+.skill p {
+  font-size: 30px;
+}

@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border-bottom: 1px solid #282b2f;
+  background-color: #0a0b0d;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:active {
+  color: #3773f5;
+}
